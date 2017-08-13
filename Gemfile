@@ -60,7 +60,10 @@ gem 'devise-i18n'
 gem 'rails_email_preview'
 gem 'roadie-rails'
 gem 'plain-david'
+
 gem 'thredded'
+gem 'thredded-bbcode'
+
 gem 'rails-timeago'
 gem 'dalli'
 gem 'connection_pool'
