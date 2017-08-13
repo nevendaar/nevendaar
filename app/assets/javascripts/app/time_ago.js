@@ -1,4 +1,6 @@
 //= require timeago
+//= require timeago/locales/ru
+
 (function() {
   window.App.onPageLoad(function() {
     if (!window.App.isAppPage()) {

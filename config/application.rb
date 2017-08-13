@@ -27,6 +27,7 @@ module Nevendaar
 
     # Don't generate system test files.
     config.generators.system_tests = nil
-    config.i18n.available_locales = %w(en)
+    config.i18n.available_locales = %i(en ru)
+    config.i18n.default_locale = :ru
   end
 end
