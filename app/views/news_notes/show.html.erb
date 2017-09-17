@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @news_note.title %>
+</p>
+
+<p>
+  <strong>Brief:</strong>
+  <%= @news_note.brief %>
+</p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @news_note.text %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @news_note.user %>
+</p>
+
+<%= link_to 'Edit', edit_news_note_path(@news_note) %> |
+<%= link_to 'Back', news_notes_path %>
